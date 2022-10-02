@@ -2,10 +2,10 @@
   "name": "cse341",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/solisjoaquin/cse341#readme",
   "dependencies": {
-    "express": "^4.18.1"
-  },
-  "type": "module"
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0"
+  }
 }

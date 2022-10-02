@@ -1,9 +1,9 @@
-import express from "express";
+const express = require("express");
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("Elias Solis");
-});
+const contacts = require("./contacts");
 
-export default router;
+router.use("/contacts", contacts);
+
+module.exports = router;
