@@ -5,15 +5,14 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://cse341-week04.onrender.com",
   "basePath": "/",
   "schemes": ["https"],
   "paths": {
     "/api-docs": {
       "get": {
         "description": "",
-        "parameters": [],
-        "responses": {}
+        "parameters": []
       }
     },
     "/contacts/": {
