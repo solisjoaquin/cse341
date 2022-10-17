@@ -5,20 +5,25 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "https://cse341-week04.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
-  "schemes": ["https"],
+  "schemes": [
+    "https"
+  ],
   "paths": {
     "/api-docs": {
       "get": {
         "description": "",
-        "parameters": []
+        "parameters": [],
+        "responses": {}
       }
     },
     "/contacts/": {
       "get": {
         "description": "",
-        "produces": ["application/json"],
+        "produces": [
+          "application/json"
+        ],
         "parameters": [],
         "responses": {
           "200": {
@@ -36,19 +41,19 @@
               "type": "object",
               "properties": {
                 "lastName": {
-                  "example": "Weaver"
+                  "example": "any"
                 },
                 "firstName": {
-                  "example": "Ashley"
+                  "example": "any"
                 },
                 "email": {
-                  "example": "aWeaver@test.com"
+                  "example": "any"
                 },
                 "favoriteColor": {
-                  "example": "Brown"
+                  "example": "any"
                 },
                 "birthday": {
-                  "example": "06/19/2000"
+                  "example": "any"
                 }
               }
             }
@@ -67,7 +72,9 @@
     "/contacts/{id}": {
       "get": {
         "description": "",
-        "produces": ["application/json"],
+        "produces": [
+          "application/json"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -98,19 +105,19 @@
               "type": "object",
               "properties": {
                 "lastName": {
-                  "example": "Weaver"
+                  "example": "any"
                 },
                 "firstName": {
-                  "example": "Ashley"
+                  "example": "any"
                 },
                 "email": {
-                  "example": "aWeaver@test.com"
+                  "example": "any"
                 },
                 "favoriteColor": {
-                  "example": "Brown"
+                  "example": "any"
                 },
                 "birthday": {
-                  "example": "06/19/2000"
+                  "example": "any"
                 }
               }
             }
